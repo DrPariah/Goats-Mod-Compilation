@@ -2,7 +2,7 @@
   {
     "id": "c96modmag",
     "type": "MAGAZINE",
-    "name": "C96 Modernized magazine",
+    "name": { "str": "C96 Modernized magazine" },
     "description": "A 20-round stick magazine inspired by the C96 Schnellfeuer.",
     "weight": "80 g",
     "volume": "500 ml",
@@ -10,15 +10,15 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "762x25",
+    "ammo_type": [ "762x25" ],
     "capacity": 20,
-    "reliability": 7,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "762x25": 20 } } ]
   },
   {
     "id": "type64mag",
     "type": "MAGAZINE",
-    "name": "Type 64 magazine",
+    "name": { "str": "Type 64 magazine" },
     "description": "TODO",
     "weight": "300 g",
     "volume": "500 ml",
@@ -26,9 +26,9 @@
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "762x25",
+    "ammo_type": [ "762x25" ],
     "capacity": 30,
-    "reliability": 7,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "762x25": 30 } } ]
   }
 ]

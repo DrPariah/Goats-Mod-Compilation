@@ -7,6 +7,8 @@
     "description": "An advanced OCG built in stock designed to absorb perceived recoil.",
     "weight": "3 g",
     "volume": "3 ml",
+    "install_time": "40 m",
+    "location": "stock",
     "price": 0,
     "flags": [ "IRREMOVABLE" ]
   },
@@ -17,7 +19,9 @@
     "name": "OCG telescopic stock",
     "description": "An OCG built in telescopic stock which is faster to set up than a folding stock but won't reduce as much volume.",
     "weight": "3 g",
-    "integral_volume": 1,
+    "integral_volume": "250 ml",
+    "install_time": "40 m",
+    "location": "stock",
     "price": 0,
     "flags": [ "IRREMOVABLE", "COLLAPSIBLE_STOCK" ]
   }

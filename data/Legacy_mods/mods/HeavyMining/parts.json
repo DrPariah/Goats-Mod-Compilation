@@ -3,7 +3,7 @@
     "type": "GENERIC",
     "id": "v_roadheader_item",
     "symbol": "&",
-    "name": "roadheader",
+    "name": { "str": "roadheader" },
     "color": "dark_gray",
     "description": "A large and heavy jagged metalhead with a lot of spikes for destroying mine walls.",
     "weight": "6200000 g",
@@ -16,7 +16,7 @@
     "type": "GENERIC",
     "id": "v_balance_item",
     "symbol": "&",
-    "name": "Balancer",
+    "name": { "str": "Balancer" },
     "color": "dark_gray",
     "description": "A large and heavy metal bar for balancing a vehicle.",
     "weight": "1000000 g",
@@ -28,7 +28,7 @@
   {
     "id": "balancer",
     "type": "vehicle_part",
-    "name": "Balancer",
+    "name": { "str": "Balancer" },
     "item": "v_balance_item",
     "location": "inside",
     "symbol": "o",
@@ -39,7 +39,7 @@
     "damage_modifier": 100,
     "durability": 300,
     "description": "A large and heavy metal drum for balancing a vehicle.",
-    "folded_volume": 12,
+    "folded_volume": "3 L",
     "breaks_into": [
       { "item": "steel_lump", "count": [ 4, 26 ] },
       { "item": "steel_chunk", "count": [ 4, 15 ] },
@@ -56,7 +56,7 @@
   {
     "id": "roadheader",
     "type": "vehicle_part",
-    "name": "roadheader",
+    "name": { "str": "roadheader" },
     "item": "v_roadheader_item",
     "location": "structure",
     "symbol": "&",
@@ -67,7 +67,7 @@
     "damage_modifier": 100,
     "durability": 300,
     "description": "A large metal jagged metalhead, powered by the vehicle's engines.  Use the vehicle controls to turn it on or off.  When turned on, it will stop the vehicle unless it has a strong engine.  When turned on, it will destroy walls near it.",
-    "folded_volume": 12,
+    "folded_volume": "3 L",
     "power": -70000,
     "breaks_into": [
       { "item": "steel_lump", "count": [ 4, 26 ] },

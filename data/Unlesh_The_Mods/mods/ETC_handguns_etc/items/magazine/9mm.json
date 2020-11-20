@@ -10,11 +10,11 @@
     "material": [ "superalloy" ],
     "symbol": "#",
     "color": "dark_gray",
-    "ammo_type": "9mm",
+    "ammo_type": [ "9mm" ],
     "capacity": 10,
-    "reliability": 8,
     "looks_like": "usp9mag",
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "9mm": 10 } } ]
   },
   {
     "id": "minirifle_mag",
@@ -27,10 +27,10 @@
     "material": [ "superalloy" ],
     "symbol": "#",
     "color": "dark_gray",
-    "ammo_type": "9mm",
+    "ammo_type": [ "9mm" ],
     "capacity": 20,
-    "reliability": 7,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "9mm": 20 } } ]
   },
   {
     "id": "minirifle_magext",
@@ -43,9 +43,9 @@
     "material": [ "superalloy" ],
     "symbol": "#",
     "color": "dark_gray",
-    "ammo_type": "9mm",
+    "ammo_type": [ "9mm" ],
     "capacity": 40,
-    "reliability": 7,
-    "flags": [ "MAG_COMPACT" ]
+    "flags": [ "MAG_COMPACT" ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "9mm": 40 } } ]
   }
 ]

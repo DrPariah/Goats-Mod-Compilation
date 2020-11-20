@@ -1,6 +1,6 @@
 [
   {
-    "id": "diamondlance",
+    "id": "mounted_diamondlance",
     "copy-from": "turret",
     "type": "vehicle_part",
     "name": { "str": "diamond lance" },
@@ -9,12 +9,12 @@
     "broken_color": "white",
     "difficulty": 6,
     "size": 10,
-    "folded_volume": 22,
+    "folded_volume": "5500 ml",
     "breaks_into": [ { "item": "diamondlance", "count": [ 0, 1 ] } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   },
   {
-    "id": "diamondnova",
+    "id": "mounted_diamondnova",
     "copy-from": "turret",
     "type": "vehicle_part",
     "name": { "str": "diamond nova" },
@@ -23,7 +23,7 @@
     "broken_color": "white",
     "difficulty": 6,
     "size": 10,
-    "folded_volume": 22,
+    "folded_volume": "5500 ml",
     "breaks_into": [ { "item": "diamondnova", "count": [ 0, 1 ] } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
   }

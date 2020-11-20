@@ -9,7 +9,8 @@
     "volume": "1 L",
     "price": 9600,
     "looks_like": "saiga10mag",
-    "capacity": 20
+    "capacity": 20,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 20 } } ]
   },
   {
     "id": "excidia40mag",
@@ -21,6 +22,6 @@
     "volume": "1250 ml",
     "price": 25000,
     "capacity": 40,
-    "reliability": 8
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 40 } } ]
   }
 ]
